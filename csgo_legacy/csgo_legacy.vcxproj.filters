@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{3ca2a10a-2c47-4a82-be52-a53173a148fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{24863673-e9ea-4af0-b143-1bd9135899e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d9ea1178-210a-4259-9062-460695ca7218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk">
+      <UniqueIdentifier>{76d2e25b-d4c9-49b3-b805-a022c9d60c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3f8166d6-aaf8-4cbb-a177-21313e3c212b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{b0d90cbc-6f02-4eda-9ef7-f9b021d7d68b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPatternScanner.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemory.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="bitbuf.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVarsBase.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientMode.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VMatrix.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerResource.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHandle.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDebugOverlay.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utlvector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IMemAlloc.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="bone_accessor.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CPatternScanner.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.h">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
